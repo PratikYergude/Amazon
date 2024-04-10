@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0&;
+}
+.f-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(240, 58, 88);
+    padding: 18px;
+}
+.feature{
+    display: flex;
+
+}
+.feature .app{
+    display: flex;
+    margin-inline: 22px;
+
+}
+.feature .app i{
+    margin-inline: 22px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.sec-nav ul li img{
+    width: 15%;
+
+}
+.sec-nav ul li a{
+    margin-inline: 22px;
+}
+.sec-nav .inputs{
+    display: flex;
+
+}
+.sec-nav .inputs button{
+    margin-inline: 5px;
+    height: 37px;
+}
+.sec-nav .inputs input{
+    width: 220px;
+    background-color: rgb(208, 205, 205);
+    border: none;
+    outline: none;
+    text-align: center;
+    height: 37px;
+}
