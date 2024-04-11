@@ -1,6 +1,78 @@
 *{
     margin: 0%;
     padding: 0&;
+    .roboto-thin {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .roboto-thin-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .roboto-light-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .roboto-regular-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .roboto-medium-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .roboto-bold-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .roboto-black-italic {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+      
 }
 .f-nav{
     display: flex;
@@ -25,10 +97,12 @@
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding: 5px;
+    padding: 11px;
 }
 .sec-nav ul li img{
-    width: 15%;
+    width: 8%;
+    margin-left: 22px;
+
 
 }
 .sec-nav ul li a{
@@ -41,6 +115,7 @@
 .sec-nav .inputs button{
     margin-inline: 5px;
     height: 27px;
+    width: 80px;
 }
 .sec-nav .inputs input{
     width: 220px;
@@ -48,6 +123,146 @@
     border: none;
     outline: none;
     text-align: center;
-    height: 30px;
+    height: 33px;
     font-size: 18px;
+    border-radius: 5px;
 }
+.sec-nav .inputs button{
+    width: 80px;
+    height: 35px;
+    background-color: rgb(224, 47, 76);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 8px;
+}
+.items ul li a{
+   margin-inline: 22px;
+text-align: center;
+}
+.items ul li button{
+    width: 100px;
+    height: 34px;
+    background-color: rgb(224, 47, 76);
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+}
+.items ul li{
+    list-style: none;
+}
+.main-page img{
+    width: 1oopx;
+}
+.pink img{
+   
+}
+.pink h2{
+    text-align: center;
+    padding: 7px;
+}
+.brand h2{
+    text-align: center;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 33px;
+}
+.card img{
+    margin-inline: 22px;
+    width: 44%;
+
+}
+.brand h2{
+    text-align: center;
+    padding: 22px;
+}
+.topbrand{
+    display: flex;
+
+}
+.topbrand img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.only-nyka h2{
+text-align: center;
+padding: 22px;
+
+}
+.only-nyka .only{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.only img{
+    width:44%;
+    margin-inline: 22px;
+}
+.makeup{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 42px;
+}
+.makeup img{
+    width: 22%;
+    margin-inline: 18px;
+}
+.special h2{
+    text-align:center;
+    padding: 22px;
+}
+.special .curation{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.curation img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.beauty h2{
+    text-align:center;
+    padding: 22px;
+}
+.beauty .advise{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.advise img{
+    margin-inline: 22px;
+    width: 44%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(177, 171, 171);
+}
+.footer .list{
+    flex-direction: column;
+}
+.footer .list ul li{
+    list-style: none;
+}
+.footer .list ul li a{
+    font-weight: 600px;
+    font-size: 13px;
+}
+.footer .list ul li h2{
+font-size: 18px;
+}
+    
+
